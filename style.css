@@ -1,0 +1,60 @@
+.horrible-text {
+    color:black;
+    background-color: rgb(222, 172, 175);
+    font-size: 20px; 
+    text-align: center;
+    width: 10rem;
+    height:12rem
+    overflow: auto;
+    padding: 8px 16px
+    border: 1px;
+    margin: 32px;
+    border: 1px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 4px;
+    margin: 32px;
+    font-family: "Montserrat"
+
+    }
+
+    body{
+        font-family: "Montserrat";
+    }
+
+    .horrible-text:hover {
+        cursor: pointer;
+        background-color: palevioletred;
+        border-style: dashed;
+    }
+
+    .horrible-text:active {
+        cursor: pointer;
+        background-color: rgb(134, 46, 53);
+    }
+    .test:hover {
+        cursor:pointer;
+        background-color:rgb(221, 177, 177)
+      
+    }
+   
+    .test:active {
+        cursor:pointer;
+        background: 
+    }
+
+
+a {
+text-decoration: none;
+list-style-type: none;
+color: rgb(0, 0, 0);
+background-color:#FFEFEE
+}
+
+.pink {
+    background-color: #FFEFEE;
+}
+
+.Copyright {
+    background-color:#FFEFEE
+}
