@@ -32,24 +32,24 @@
         cursor: pointer;
         background-color: rgb(134, 46, 53);
     }
-    .test:hover {
-        cursor:pointer;
-        background-color:rgb(221, 177, 177)
-      
-    }
    
-    .test:active {
-        cursor:pointer;
-        background: 
-    }
-
 
 a {
 text-decoration: none;
 list-style-type: none;
 color: rgb(0, 0, 0);
-background-color:#FFEFEE
+
 }
+
+a:hover {
+        cursor: pointer;
+        background-color: palevioletred;
+    }
+
+    a:active {
+        cursor: pointer;
+        background-color: rgb(134, 46, 53);
+    }
 
 .pink {
     background-color: #FFEFEE;
@@ -57,4 +57,12 @@ background-color:#FFEFEE
 
 .Copyright {
     background-color:#FFEFEE
+}
+
+.cass {
+    font-size: 20px
+}
+
+.hero-image {
+    width: 100vw;
 }
