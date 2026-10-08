@@ -1,12 +1,12 @@
 .horrible-text {
     color:black;
     background-color: rgb(222, 172, 175);
-    font-size: 20px; 
+    font-size: 15px; 
     text-align: center;
-    width: 10rem;
-    height:12rem
+    width: rem;
+    /* height:12rem; */
     overflow: auto;
-    padding: 8px 16px
+    padding: 8px 16px;
     border: 1px;
     margin: 32px;
     border: 1px;
@@ -34,12 +34,20 @@
     }
    
 
+.a {
+display: flex; 
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-end;
+gap: 0.5rem;
+
+}
+
 a {
-text-decoration: none;
+    text-decoration: none;
 list-style-type: none;
 color: rgb(0, 0, 0);
 font-family: Open Sans
-
 }
 
 a:hover {
@@ -56,9 +64,36 @@ a:hover {
     background-color: #FFEFEE;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 0.75rem;
+    background-color: #FFEFEE;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .Copyright {
-    background-color: #FFEFEE; 
-    font-family: Open Sans
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    font-family: Open Sans;
+    background-color:#FFEFEE
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    gap: 0.75rem;
 }
 
 .cass {
@@ -71,4 +106,49 @@ a:hover {
 
 .photo {
     width: 100vw;
+}
+
+
+.hero-background {
+    background-size: 100%;
+    padding: 20px 0px;
+  background-image: url('./assets/heroimage1.png');
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width:321px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+        align-items: center;
+    }
+    .hero-background {
+        background-size: 100%;
+        padding: 48px 0px;
+        background-image: url('./assets/heroimage1.png');
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 315px) {
+
+     .hero-background {
+    
+
+    }
+}
+
+@media screen and (min-width 812px) {
+
+}
+
+@media screen and (min-width: 1080px) {
+    
 }
