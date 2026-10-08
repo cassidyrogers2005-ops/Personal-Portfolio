@@ -115,10 +115,9 @@ a:hover {
     gap: 15px;
     flex-direction: row;
     margin: 0 10px;
+    font-size:40px;
     
 }
-
-
 
 .hero-background {
     background-size: 100%;
@@ -148,10 +147,20 @@ a:hover {
     }
 }
 
-@media screen and (min-width 812px) {
-
+@media screen and (min-width:603px) {
+    .Copyright {
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
 }
 
-@media screen and (min-width: 1080px) {
-    
+@media screen and (min-width:603px) {
+    .helpme {
+        display: flex; 
+        justify-content:center;
 }
+}
+
